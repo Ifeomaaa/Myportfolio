@@ -1,0 +1,226 @@
+body{
+    background-color: lightpink;
+    font-family: poppins, sans-serif;
+    
+    
+}
+header{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 60px; 
+    align-items: center;
+   
+}
+@media(max-width: 600px){
+   
+    
+}
+.left-section{
+    /* background-color: lightblue; */
+}
+.right-section{
+    /* background-color: white; */
+    display: flex;
+   
+}
+.github{
+    margin-left: 5px;
+    
+}
+.linkedln,
+.email,
+.github{
+    margin-right: 5px;
+    padding: 3px 2px 3px 2px;
+    transition: 0.15s;
+}
+.undersection button:hover{
+    background-color: white;
+    border-color: rgb(118, 175, 229);
+   
+}
+.email a{
+    background-color: black;
+    color: white;
+    padding: 4px 4px 4px 5px;
+    border-radius: 3px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.second-vertical{
+    display: grid;
+    grid-template-columns: 1fr 500px;
+}
+.writeup{
+   padding-top: 25px;
+   padding-right: 10px;
+    
+}
+.h1{
+    font-weight: bold;
+    font-size: 20px;
+}
+.p{
+ font-weight: 500px;
+ line-height: 8px;
+}
+.fp-image img{
+    width: 250px;
+    border-radius: 125px;
+    
+
+}
+/* .fp-image{
+    display: flex;
+    justify-content: right;
+} */
+.undersection{
+    margin-top: 10px;
+    display: flex;
+    
+}
+.indi-section{
+    background-color: lightpink;
+    margin-right: 5px;
+    color: rgb(129, 23, 161);
+    border-radius: 3px;
+    border-color:rgb(129, 23, 161);
+    border-style: solid;
+    cursor: pointer;
+}
+.third-vertical{
+    margin-top: 70px;
+   
+}
+.h2{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+    font-style: italic;
+}
+.third-vertical p{
+    margin-top: 0;
+    /* width: 600px; */
+}
+.button{
+    /* background-color: wheat; */
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.button img{
+    width: 22px;
+}
+.logo{
+    /* background-color: white; */
+    border: 1px solid;
+    border-color: rgb(215, 130, 144);
+    margin-right:10px;
+    /* box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.15); */
+    padding: 3px 18px 5px 14px;
+
+}
+.logo .text{
+    border-bottom: 3px;
+}
+.logo img{
+    border-top: 5px;
+}
+.h2-testimony{
+     margin-left: 30px; 
+    margin-bottom: 0;
+}
+.testimony img{
+   width: 200px;
+   border-radius: 125px;
+   margin-bottom: 5px;
+   
+}
+.testimony{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    /* display: grid;
+    grid-template-columns: 230px 1fr; */
+}
+
+.testimony-firstsection p{
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.testimony-firstsection{
+    flex: 2;
+    text-align: center;
+
+}
+/* when i used grid before switching to flex */
+ .testimony-firstsection .text1{ 
+    /* margin-left: 50px;  */
+    /* font-weight: bold; */
+    
+}
+.testimony-firstsection .text2{
+    /* margin-left: 29px; */
+   
+}  
+.testimony-writeup{
+    /* margin-top: 110px; */
+    flex: 8;
+}
+h2{
+    margin-bottom: 0;
+    font-style: italic;
+}
+.contact-writeup{
+    padding-right: 40px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.form label{
+    margin-bottom: 0;
+    font-size: 12px;
+
+}
+input{
+    margin-bottom: 5px;
+}
+button{
+    background-color: rgb(72, 72, 240);
+    color: white;
+    padding: 8px 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.form button:hover{
+    opacity: 0.9;
+}
+.form input,
+.form textarea{
+    font-family: poppins, sans-serif;
+    padding: 3px;
+    background-color: aliceblue;
+    outline: none;
+    resize: none;
+    border-style: solid;
+    border-radius: 3px;
+    border-color:  lightblue;
+}
+.form textarea{
+    margin-bottom: 7px;
+}
